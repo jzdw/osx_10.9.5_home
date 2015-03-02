@@ -1,0 +1,11 @@
+# white spaces after * make it NOT blacklist everything
+*
+
+!.bash_profile
+!.vimrc
+!.gitignore
+!*/
+!.vim/**
+/repos/**
+
+
