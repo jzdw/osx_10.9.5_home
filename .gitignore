@@ -1,14 +1,13 @@
 # white spaces after * make it NOT blacklist everything
-*
-
+**
 !.bash_profile
 !.bashrc
 !.vimrc
 !.gitignore
 !*/
 !.vim/**
-!*/**/
-!config-bkups/**
+!config-backups/**
 /repos/**
+Library
 
 
