@@ -1,11 +1,25 @@
 
+execute pathogen#infect()
+
 colorscheme ir_black
 syntax on
 set more
 
 "wrapping
-set nowrap
-"set linebreak
+"set nowrap
+set linebreak
+set showbreak=..
+command! -nargs=* Wrap set wrap linebreak nolist
+vmap <c-j> gj
+vmap <c-k> gk
+vmap <c-4> g$
+vmap <c-6> g^
+vmap <c-0> g0
+nmap <c-j> gj
+nmap <c-k> gk
+nmap <c-4> g$
+nmap <c-6> g^
+nmap <c-0> g0
 
 "status line
 set showcmd
@@ -67,4 +81,13 @@ function! SummarizeTabs()
     echohl None
   endtry
 endfunction
+
+if exists(":Tabularize")
+    nmap <leader>z= :Tabularize /=<CR>
+    vmap <leader>z= :Tabularize /=<CR>
+    nmap <leader>z: :Tabularize /:\zs<CR>
+    vmap <leader>z: :Tabularize /:\zs<CR>
+    vmap <leader>z| :Tabularize /|<CR>
+    nmap <leader>z| :Tabularzie /|<CR>
+endif
 
