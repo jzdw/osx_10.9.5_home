@@ -4,8 +4,9 @@
 !.bashrc
 !.vimrc
 !.gitignore
-!.vim/autoload/**
-!.vim/bundle/*/**
+!.vim/
+#!.vim/autoload/**
+#!.vim/bundle/*/**
 !config-backups/**
 /repos/**
 Library
