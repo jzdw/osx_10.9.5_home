@@ -4,8 +4,6 @@
 !.bashrc
 !.vimrc
 !.gitignore
-!*/
-!.vim/
 !.vim/**/*
 !config-backups/**
 /repos/**
