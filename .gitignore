@@ -1,5 +1,6 @@
 # white spaces after * make it NOT blacklist everything
-**
+/*
+/*/
 !.bash_profile
 !.bashrc
 !.vimrc
@@ -7,8 +8,8 @@
 !.vim/
 #!.vim/autoload/**
 #!.vim/bundle/*/**
-!config-backups/**
-/repos/**
-Library
+!config-backups/
+#/repos/**
+#Library
 
 
