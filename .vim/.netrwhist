@@ -1,3 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/usr/share/vim/vim73/indent'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Volumes/share_common/network_setups/ds415+camera/ds415_ssl_certificates'
+let g:netrw_dirhist_2='/Volumes/share_common/network_setups/ds415+camera/ds415_ssl_certificates/ww33forever'
+let g:netrw_dirhist_3='/Volumes/share_common/network_setups/ds415+camera/ds415_ssl_certificates'
+let g:netrw_dirhist_4='/Volumes/share_common/network_setups/ds415+camera'
+let g:netrw_dirhist_5='/Volumes/share_common/network_setups'
+let g:netrw_dirhist_6='/Volumes/share_common/network_setups/ds412'
+let g:netrw_dirhist_7='/Users/johnwang/Dropbox/Apps/Byword/linux'

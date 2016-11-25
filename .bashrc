@@ -17,8 +17,8 @@ if [ -f ~/.git-prompt.sh ]; then
 	export PS1='\W$(__git_ps1 "(%s)") > '
 fi
 ######################### matlab
-export PATH=$PATH:/tools/matlab/MATLAB_R2014a.app/bin
+export PATH=~/bin:$PATH:/tools/matlab/MATLAB_R2014a.app/bin
 ######################### python
 # added by Anaconda 2.1.0 installer
-export PATH="/tools/python/anaconda/bin:$PATH"
+export PATH=/tools/python/anaconda/bin:~/bin:$PATH
 
